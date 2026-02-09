@@ -65,9 +65,15 @@
       margin-right: 8px;
     }
 
+    .button-group {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 25px;
+    }
+
     .btn {
       display: inline-block;
-      margin-top: 25px;
       padding: 14px 30px;
       background: linear-gradient(135deg, #22c55e, #16a34a);
       color: #022c22;
@@ -124,9 +130,17 @@
         <li><span>🛡️</span>长期可靠：诚信为本，服务稳定</li>
       </ul>
 
-      <a class="btn" href="https://discord.gg/Y3Va2tcCCg" target="_blank">
-        点击加入 恐龙商城🦖 吧
-      </a>
+      <div class="button-group">
+        <a class="btn" href="https://discord.gg/Y3Va2tcCCg" target="_blank">
+          加入 恐龙商城🦖
+        </a>
+
+        <a class="btn"
+           href="https://discord.com/oauth2/authorize?client_id=1458824288177094830&permissions=4503602244676662&integration_type=0&scope=bot+applications.commands"
+           target="_blank">
+          🤖 邀请机器人进群
+        </a>
+      </div>
     </div>
 
     <footer>
